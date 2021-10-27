@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>@yield('title') | My Blog</title>
 </head>
 <body>
-lara_0818_u2
+<div class="container">
+    @yield('content')
+</div>
 </body>
 </html>
